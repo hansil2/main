@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+body{width: 1800px;
+     margin: 0px; padding: 0px;}
+
+/*a{text-decoration: none;
+  color: black;}
+a:hover{color: black;}
+a::after{color: black;}*/
+
+/*배너1*/
+#banner{width: 1800px;}
+
+/*배너2*/
+main{text-align: center;
+     height: 600px;
+     background-image: url(../images/main_beanist_bg.gif);
+     background-repeat: no-repeat;}
+main span{color: brown; font-weight: bold;}
+main  > p{font-size: 45px; font-weight: lighter;
+          color: rgb(82, 77, 77); padding: 40px;}
+main hr{width: 90px; border-color: black; margin-top: -40px;} 
+main #b1_image{justify-content:space-evenly; 
+               display: flex; margin: 40px 250px;}
+main #b1_text{display: flex; justify-content:space-evenly; 
+              margin: 0px 280px; margin-top: -30px;}
+
+main #b1_text h3{color: brown;}
+main #b1_text p{margin: -20px; color: rgb(243, 190, 44);}
+
+/*배너3*/
+aside{background-color: rgb(45, 45, 167);
+      margin-top: -15px; height: 500px;}
+aside img{float: right; margin-top: -70px;}
+aside #DREAM {float: left; margin-top: 150px; margin-left: 300px;}
+aside #EDIYA {clear: both;
+              color: white;}
+aside #EDIYA p{margin-left: 300px;}
+aside #EDIYA p:nth-of-type(1){font-weight: bold; font-size: 30px;}
+.box{border: 1px white solid;
+     width: 200px; 
+     text-align: center; display: inline-block;} 
+.box p{color: white;}
+.box:hover{background-color: white;}
+.box:hover p{color:rgb(45, 45, 167);}
+#factory{margin-left: 300px;}
+#dream_img{margin-top: -130px;}
+
+
+/*배너4*/
+section{clear: both;
+        background-image: url(../images/block02_bg.jpg); 
+        height: 700px;
+        text-align: center;
+        margin-top: -45px;}
+section #ALWAYS_t{padding: 70px;}
+section #ALWAYS_t p{font-weight: lighter;}
+section #ALWAYS_t span{font-weight: bold;}
+section #ALWAYS_t hr{width: 90px; border-color: white; margin-top: -10px;}
+section #ALWAYS_t p:nth-of-type(1){color: white; font-size: 45px;}
+section #ALWAYS_t p:nth-of-type(2){color: white; font-size: 30px;
+                                   font-size: 25px; padding: 20px;}
+#menu_box p {color: white; 
+             border: 1px white solid; 
+             width: 200px; padding: 20px;
+             margin: auto; margin-top: -60px;}
+#menu_box p:hover{background-color: white; color: black;}
+
+/*배너5*/
+figure{background-image: url(../images/company_bg.jpg);
+       width: 100%; height: 420px; 
+       margin: 0px; margin-top: -25px;}
+figure #work{margin-left: 950px; padding: 20px;}
+figure #work p:nth-of-type(1){color: white; font-size: 45px;}
+figure #work p:nth-of-type(2){color: white;}
+figure  #work_box{display: flex; margin-left: 970px;}
+figure  #work_box p{color: white; margin-top: 10px; margin: 5px;
+                    border: 1px white solid; 
+                    width: 200px; padding: 10px; text-align: center;}
+figure  #work_box p:hover{background-color: white; color: black;}
+
+/*하단 왼쪽*/
+article {display: flex; padding: 140px;}
+#ar1{background-image: url(../images/main_franchise_bg.jpg);
+     width: 340px; height: 340px;}
+#ar1 p{color: white; padding: 50px; margin: 0px;}       
+#ar1 p:nth-of-type(1){color: white; font-size: 24px;}
+#ar1 p:nth-of-type(2){color: white; margin-top: -25px;}
+#ar1 hr{border-color: white; width: 50px; margin-left: 50px;
+           margin-top: -20px;}
+article #search{margin-top: 200px; margin-left: -1050px;}
+article #search input:nth-of-type(1){background-color: rgb(45, 45, 167);
+                                     border: 1px solid white;
+                                     color: white;
+                                     height: 40px;}                                    
+article #search input:nth-of-type(2){margin-top: 12px;}
+article #search input::placeholder{color: white;}
+#ar2{background-image: url(../images/main_store_bg.jpg);
+     width: 340px; height: 340px;
+     margin-left: 10px;}
+#ar2 p{color: white; padding: 50px; margin: 0px;}
+#ar2 p:nth-of-type(1){color: white; font-size: 24px;}
+#ar2 p:nth-of-type(2){color: white; margin-top: -25px;}
+#ar2 hr{border-color: white; width: 50px; margin-left: 50px;
+           margin-top: -20px;}
+
+/*하단 오른쪽*/
+#NEWS{margin-left: 940px; margin-top: -500px;}
+#NEWS1 p{margin-left: 480px;}
+#NEWS2 p:nth-of-type(2){margin-left: 165px;}
+#NEWS3 p:nth-of-type(2){margin-left: 105px;}
+#NEWS4 p:nth-of-type(2){margin-left: 90px;}
+
+#NEWS1{display: flex;}
+#NEWS2{display: flex;}
+#NEWS3{display: flex;}
+#NEWS4{display: flex;}
+
+#download{background-color:rgb(189, 189, 156); 
+          width: 600px; height: 100px; 
+          margin-top: 40px; margin-left: 930px;}
+#download h3{color: white;}
+#download p{font-weight: bold; color: white;}
+#download_t{margin-left: 40px; padding: 5px;}
+#download_t p{margin-top: -20px; font-size: 25px;}
